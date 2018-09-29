@@ -1,0 +1,26 @@
+create  DATABASE fj21;
+
+use fj21;
+ 
+create table contatos (
+   
+     id BIGINT NOT NULL AUTO_INCREMENT,
+
+        nome VARCHAR(255),
+
+        email VARCHAR(255),
+
+        senha varchar(255),
+
+        Projeto VARCHAR(255),
+
+        dataNascimento DATE,
+ 
+       dataFinal DATE,
+
+        primary key (id)
+
+    );
+
+teste = http://localhost:8080/Calendario/
+cadastro  = http://localhost:8080/Calendario/adiciona-contato.jsp
